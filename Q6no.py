@@ -1,10 +1,18 @@
-number = [0,1,2,3,4,5,6,7,8,9]
-while True:
-    print("數字有:",number)
-    q = int(input("輸入一串數字組成的字串:"))
-    if q > 0:
-        w.sort(q)
-        print(w,end="")    
+from tkinter import Y
+
+
+x = list(map(int,input().split(",")))
+x.sort()
+
+y=0
+z=0
+for i in range(0,len(x)):
+    y+=x[i]*(10**i)
+x.reverse()
+
+for i in range(0,len(x)):
+    y+=x[i]*(10**i)
+print(y-z)
     
     
 
