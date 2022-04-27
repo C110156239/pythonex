@@ -1,7 +1,7 @@
 
 
 
-x = list(map(int,input().split(",")))
+x = list(map(int,input("輸入值為:").split(",")))
 x.sort()
 
 y=0
@@ -11,7 +11,7 @@ for i in range(0,len(x)):
 x.reverse()
 
 for i in range(0,len(x)):
-    y+=x[i]*(10**i)
+    z+=x[i]*(10**i)
 print(y-z)
     
     
