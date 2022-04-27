@@ -1,4 +1,4 @@
-from tkinter import Y
+
 
 
 x = list(map(int,input().split(",")))
